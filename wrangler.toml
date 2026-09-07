@@ -1,9 +1,0 @@
-name = "techjhuli-redirect"
-main = "src/index.js"
-compatibility_date = "2024-12-01"
-
-# এখানেই Route বসবে
-routes = [
-  { pattern = "techjhuli.com/*", zone_name = "techjhuli.com" },
-  { pattern = "www.techjhuli.com/*", zone_name = "techjhuli.com" }
-]

@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "techjhuli-redirect",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-07",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "techjhuli.com/*",
+      "zone_name": "techjhuli.com"
+    },
+    {
+      "pattern": "www.techjhuli.com/*",
+      "zone_name": "techjhuli.com"
+    }
+  ]
+}
